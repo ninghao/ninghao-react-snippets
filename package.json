@@ -6,12 +6,13 @@
     "react.js",
     "snippets"
   ],
-  "version": "2.0.0",
+  "version": "1.0.0",
   "repository": "https://github.com/ninghao/ninghao-react-snippets.git",
   "license": "MIT",
   "author": {
     "name": "wanghao"
   },
+  "homepage": "https://ninghao.net",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
