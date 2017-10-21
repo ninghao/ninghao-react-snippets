@@ -1,0 +1,19 @@
+{
+  "name": "ninghao-react-snippets",
+  "description": "React Snippets for Atom",
+  "keywords": [
+    "react",
+    "react.js",
+    "snippets"
+  ],
+  "version": "1.0.0",
+  "repository": "https://github.com/ninghao/ninghao-react-snippets.git",
+  "license": "MIT",
+  "author": {
+    "name": "wanghao"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

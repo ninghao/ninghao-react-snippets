@@ -1,0 +1,45 @@
+".source.js, .source.jsx, .source.ts, .source.tsx":
+  "React: Import React":
+    prefix: "ri"
+    body: "import React from 'react'"
+  "React: Import React + Component":
+    prefix: "ric"
+    body: "import React, { Component } from 'react'"
+  "React: Class Component":
+    prefix: "rcc"
+    body: """
+    import React, { Component } from 'react'
+
+    class ${1:COMPONENT} extends Component {
+      render () {
+        return (
+          ${2}
+        )
+      }
+    }
+
+    export default ${1:COMPONENT}
+    """
+  "React: Component state":
+    prefix: "rcs"
+    body: """
+    state = {
+      ${1}
+    }
+    """
+  "React: Component setState":
+    prefix: "rcss"
+    body: """
+    this.setState(
+      ${1}
+    )
+    """
+  "React: Component setState with Callback":
+    prefix: "rcssf"
+    body: """
+    this.setState((prevState) => {
+      return {
+        ${1}
+      }
+    })
+    """
